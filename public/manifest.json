@@ -1,0 +1,133 @@
+{
+  "name": "न्यूज़ सर्कल इंडिया",
+  "short_name": "न्यूज़ सर्कल",
+  "description": "भारत और विश्व की ताजा खबरें। राजनीति, व्यापार, खेल, मनोरंजन और तकनीक की विश्वसनीय जानकारी।",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "hi",
+  "dir": "ltr",
+  "categories": ["news", "entertainment", "business", "sports"],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "राजनीति",
+      "short_name": "राजनीति",
+      "description": "राजनीतिक खबरें देखें",
+      "url": "/rajneeti",
+      "icons": [
+        {
+          "src": "/icons/politics-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "व्यापार",
+      "short_name": "व्यापार",
+      "description": "व्यापारिक खबरें देखें",
+      "url": "/vyapar",
+      "icons": [
+        {
+          "src": "/icons/business-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "खेल",
+      "short_name": "खेल",
+      "description": "खेल की खबरें देखें",
+      "url": "/khel",
+      "icons": [
+        {
+          "src": "/icons/sports-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "संपर्क करें",
+      "short_name": "संपर्क",
+      "description": "हमसे संपर्क करें",
+      "url": "/sampark-karein",
+      "icons": [
+        {
+          "src": "/icons/contact-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/homepage-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/homepage-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+} 
